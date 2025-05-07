@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { Container, Row, Col, Button, Navbar, Nav } from 'react-bootstrap';
 import { Link } from 'react-scroll';
@@ -32,7 +31,7 @@ function App() {
             <Col>
               <h1>Hema Alkolu</h1>
               <p>React Developer | MERN Stack Expert</p>
-              {/* 🔹 Resume Button Added Below */}
+              {/* Resume Button Added Below */}
               <Button variant="light" href="Hema.pdf" download className="me-3">
                 Download Resume
               </Button>
@@ -62,30 +61,6 @@ function App() {
         </Container>
 
         {/* Contact Section */}
-        {/* <Container id="contact" className="py-5">
-          <h2 className="text-center">Contact Me</h2>
-          <form>
-            <Row>
-              <Col md={6}>
-                <label htmlFor="name">Name</label>
-                <input type="text" id="name" className="form-control" placeholder="Your name" />
-              </Col>
-              <Col md={6}>
-                <label htmlFor="email">Email</label>
-                <input type="email" id="email" className="form-control" placeholder="Your email" />
-              </Col>
-            </Row>
-            <Row className="mt-3">
-              <Col>
-                <label htmlFor="message">Message</label>
-                <textarea id="message" className="form-control" rows="4" placeholder="Your message"></textarea>
-              </Col>
-            </Row>
-            <div className="text-center mt-3">
-              <Button type="submit" variant="primary">Send Message</Button>
-            </div>
-          </form>
-        </Container> */}
         <Contact />
       </main>
 
@@ -93,7 +68,7 @@ function App() {
       <footer className="bg-dark text-white text-center py-3">
         <p>© {new Date().getFullYear()} Hema Alkolu. All rights reserved.</p>
         
-        {/* 🔹 Social Links Added Below */}
+        {/* Social Links Added Below */}
         <div className="d-flex justify-content-center gap-3 mt-2">
           <a href="https://github.com/Hepsibaalkolu" target="_blank" rel="noopener noreferrer">
             <img src="/github.png" alt="GitHub" width="30" />
