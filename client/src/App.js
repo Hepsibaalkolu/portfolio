@@ -3,6 +3,7 @@ import React from 'react';
 import { Container, Row, Col, Button, Navbar, Nav } from 'react-bootstrap';
 import { Link } from 'react-scroll';
 import Projects from './components/Projects';
+import Contact from './components/Contact';
 
 function App() {
   return (
@@ -61,7 +62,7 @@ function App() {
         </Container>
 
         {/* Contact Section */}
-        <Container id="contact" className="py-5">
+        {/* <Container id="contact" className="py-5">
           <h2 className="text-center">Contact Me</h2>
           <form>
             <Row>
@@ -84,7 +85,8 @@ function App() {
               <Button type="submit" variant="primary">Send Message</Button>
             </div>
           </form>
-        </Container>
+        </Container> */}
+        <Contact />
       </main>
 
       {/* Footer */}
